@@ -1,0 +1,50 @@
+@startuml
+
+'left to right direction
+
+namespace "Сервис 1" as S1  {
+class "Сущность 1" as A1{
+    id
+    ---
+    атрибут 1
+    атрибут 2
+}
+class "Сущность 2" as A2{
+    id
+}
+
+A1 -> A2
+
+}
+namespace "Сервис 2" as S2  {
+class "Сущность 2" as A2{
+    id
+    ---
+    атрибут 3
+    атрибут 4
+}
+}
+
+
+namespace "Cвязывание сущностей" as S3  {
+class "Сущность 1" as A1{
+    id
+    ---
+    атрибут 1
+    атрибут 2
+}
+
+class "Сущность 2" as A2{
+    id
+    ---
+    атрибут 3
+    атрибут 4
+}
+
+A1 -> A2
+}
+
+S1 --> S3
+S2 --> S3
+
+@enduml

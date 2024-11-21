@@ -1,0 +1,27 @@
+@startuml
+
+left to right direction
+
+package "Предобработка" {
+
+component "Генератор графа сущностей"
+
+component "Парсер OpenAPI"
+
+}
+
+package "Основной сервис" {
+
+component "Парсер графа сущностей"
+
+component "Генератор схемы Graphql"
+
+component "Парсер запросов"
+
+component "Конструктор плана запросов"
+
+component "Исполнитель плана запросов"
+
+}
+
+@enduml

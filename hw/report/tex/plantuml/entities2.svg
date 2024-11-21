@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="403px" preserveAspectRatio="none" style="width:558px;height:403px;background:#FFFFFF;" version="1.1" viewBox="0 0 558 403" width="558px" zoomAndPan="magnify"><defs/><g><!--MD5=[0ac70d5a357257da33ce88abad68f4a4]
+cluster S1--><g id="cluster_S1"><path d="M8.5,6.602 L73.5,6.602 A3.75,3.75 0 0 1 76,9.102 L83,31.6699 L329.5,31.6699 A2.5,2.5 0 0 1 332,34.1699 L332,179.102 A2.5,2.5 0 0 1 329.5,181.602 L8.5,181.602 A2.5,2.5 0 0 1 6,179.102 L6,9.102 A2.5,2.5 0 0 1 8.5,6.602 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="6" x2="83" y1="31.6699" y2="31.6699"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="64" x="10" y="23.5679">Сервис 1</text></g><!--MD5=[dc4eb2012487d12714526fe7f88b694b]
+cluster S2--><g id="cluster_S2"><path d="M374.5,6.602 L439.5,6.602 A3.75,3.75 0 0 1 442,9.102 L449,31.6699 L548.5,31.6699 A2.5,2.5 0 0 1 551,34.1699 L551,179.102 A2.5,2.5 0 0 1 548.5,181.602 L374.5,181.602 A2.5,2.5 0 0 1 372,179.102 L372,9.102 A2.5,2.5 0 0 1 374.5,6.602 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="372" x2="449" y1="31.6699" y2="31.6699"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="64" x="376" y="23.5679">Сервис 2</text></g><!--MD5=[addf083e429417be7ad7bace6a60d70a]
+cluster S3--><g id="cluster_S3"><path d="M117.5,221.602 L292.5,221.602 A3.75,3.75 0 0 1 295,224.102 L302,246.6699 L438.5,246.6699 A2.5,2.5 0 0 1 441,249.1699 L441,394.102 A2.5,2.5 0 0 1 438.5,396.602 L117.5,396.602 A2.5,2.5 0 0 1 115,394.102 L115,224.102 A2.5,2.5 0 0 1 117.5,221.602 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="115" x2="302" y1="246.6699" y2="246.6699"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="174" x="119" y="238.5679">Cвязывание сущностей</text></g><!--MD5=[3776c341aec881ea01e2e27875117471]
+class S1.A1--><g id="elem_S1.A1"><rect codeLine="5" fill="#F1F1F1" height="105.2038" id="S1.A1" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="112" x="49" y="52.602"/><ellipse cx="64" cy="68.602" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M66.9688,74.2426 Q66.3906,74.5395 65.75,74.6801 Q65.1094,74.8364 64.4063,74.8364 Q61.9063,74.8364 60.5781,73.1957 Q59.2656,71.5395 59.2656,68.4145 Q59.2656,65.2895 60.5781,63.6332 Q61.9063,61.977 64.4063,61.977 Q65.1094,61.977 65.75,62.1332 Q66.4063,62.2895 66.9688,62.5864 L66.9688,65.3051 Q66.3438,64.727 65.75,64.4614 Q65.1563,64.1801 64.5313,64.1801 Q63.1875,64.1801 62.5,65.2582 Q61.8125,66.3207 61.8125,68.4145 Q61.8125,70.5082 62.5,71.5864 Q63.1875,72.6489 64.5313,72.6489 Q65.1563,72.6489 65.75,72.3832 Q66.3438,72.102 66.9688,71.5239 L66.9688,74.2426 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="80" x="78" y="74.034">Сущность 1</text><line style="stroke:#181818;stroke-width:0.5;" x1="50" x2="160" y1="84.602" y2="84.602"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="13" x="55" y="103.5679">id</text><line style="stroke:#181818;stroke-width:1.0;" x1="50" x2="160" y1="111.6699" y2="111.6699"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="67" x="55" y="130.6358">атрибут 1</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="67" x="55" y="149.7038">атрибут 2</text></g><!--MD5=[57037837d184ae5d13cb95ca29dd6626]
+class S1.A2--><g id="elem_S1.A2"><rect codeLine="11" fill="#F1F1F1" height="67.0679" id="S1.A2" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="112" x="196" y="71.602"/><ellipse cx="211" cy="87.602" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M213.9688,93.2426 Q213.3906,93.5395 212.75,93.6801 Q212.1094,93.8364 211.4063,93.8364 Q208.9063,93.8364 207.5781,92.1957 Q206.2656,90.5395 206.2656,87.4145 Q206.2656,84.2895 207.5781,82.6332 Q208.9063,80.977 211.4063,80.977 Q212.1094,80.977 212.75,81.1332 Q213.4063,81.2895 213.9688,81.5864 L213.9688,84.3051 Q213.3438,83.727 212.75,83.4614 Q212.1563,83.1801 211.5313,83.1801 Q210.1875,83.1801 209.5,84.2582 Q208.8125,85.3207 208.8125,87.4145 Q208.8125,89.5082 209.5,90.5864 Q210.1875,91.6489 211.5313,91.6489 Q212.1563,91.6489 212.75,91.3832 Q213.3438,91.102 213.9688,90.5239 L213.9688,93.2426 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="80" x="225" y="93.034">Сущность 2</text><line style="stroke:#181818;stroke-width:0.5;" x1="197" x2="307" y1="103.602" y2="103.602"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="13" x="202" y="122.5679">id</text><line style="stroke:#181818;stroke-width:0.5;" x1="197" x2="307" y1="130.6699" y2="130.6699"/></g><!--MD5=[f967cd94627283bf4f2aa836d35d51e7]
+class S2.A2--><g id="elem_S2.A2"><rect codeLine="19" fill="#F1F1F1" height="105.2038" id="S2.A2" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="112" x="415" y="52.602"/><ellipse cx="430" cy="68.602" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M432.9688,74.2426 Q432.3906,74.5395 431.75,74.6801 Q431.1094,74.8364 430.4063,74.8364 Q427.9063,74.8364 426.5781,73.1957 Q425.2656,71.5395 425.2656,68.4145 Q425.2656,65.2895 426.5781,63.6332 Q427.9063,61.977 430.4063,61.977 Q431.1094,61.977 431.75,62.1332 Q432.4063,62.2895 432.9688,62.5864 L432.9688,65.3051 Q432.3438,64.727 431.75,64.4614 Q431.1563,64.1801 430.5313,64.1801 Q429.1875,64.1801 428.5,65.2582 Q427.8125,66.3207 427.8125,68.4145 Q427.8125,70.5082 428.5,71.5864 Q429.1875,72.6489 430.5313,72.6489 Q431.1563,72.6489 431.75,72.3832 Q432.3438,72.102 432.9688,71.5239 L432.9688,74.2426 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="80" x="444" y="74.034">Сущность 2</text><line style="stroke:#181818;stroke-width:0.5;" x1="416" x2="526" y1="84.602" y2="84.602"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="13" x="421" y="103.5679">id</text><line style="stroke:#181818;stroke-width:1.0;" x1="416" x2="526" y1="111.6699" y2="111.6699"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="67" x="421" y="130.6358">атрибут 3</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="67" x="421" y="149.7038">атрибут 4</text></g><!--MD5=[1e413f5f6496fe641cc210dbfb7e9449]
+class S3.A1--><g id="elem_S3.A1"><rect codeLine="29" fill="#F1F1F1" height="105.2038" id="S3.A1" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="112" x="158" y="267.602"/><ellipse cx="173" cy="283.602" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M175.9688,289.2426 Q175.3906,289.5395 174.75,289.6801 Q174.1094,289.8364 173.4063,289.8364 Q170.9063,289.8364 169.5781,288.1957 Q168.2656,286.5395 168.2656,283.4145 Q168.2656,280.2895 169.5781,278.6332 Q170.9063,276.977 173.4063,276.977 Q174.1094,276.977 174.75,277.1332 Q175.4063,277.2895 175.9688,277.5864 L175.9688,280.3051 Q175.3438,279.727 174.75,279.4614 Q174.1563,279.1801 173.5313,279.1801 Q172.1875,279.1801 171.5,280.2582 Q170.8125,281.3207 170.8125,283.4145 Q170.8125,285.5082 171.5,286.5864 Q172.1875,287.6489 173.5313,287.6489 Q174.1563,287.6489 174.75,287.3832 Q175.3438,287.102 175.9688,286.5239 L175.9688,289.2426 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="80" x="187" y="289.034">Сущность 1</text><line style="stroke:#181818;stroke-width:0.5;" x1="159" x2="269" y1="299.602" y2="299.602"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="13" x="164" y="318.5679">id</text><line style="stroke:#181818;stroke-width:1.0;" x1="159" x2="269" y1="326.6699" y2="326.6699"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="67" x="164" y="345.6358">атрибут 1</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="67" x="164" y="364.7038">атрибут 2</text></g><!--MD5=[e90ec9382eeaa00a7acf278c8784ccbf]
+class S3.A2--><g id="elem_S3.A2"><rect codeLine="36" fill="#F1F1F1" height="105.2038" id="S3.A2" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="112" x="305" y="267.602"/><ellipse cx="320" cy="283.602" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M322.9688,289.2426 Q322.3906,289.5395 321.75,289.6801 Q321.1094,289.8364 320.4063,289.8364 Q317.9063,289.8364 316.5781,288.1957 Q315.2656,286.5395 315.2656,283.4145 Q315.2656,280.2895 316.5781,278.6332 Q317.9063,276.977 320.4063,276.977 Q321.1094,276.977 321.75,277.1332 Q322.4063,277.2895 322.9688,277.5864 L322.9688,280.3051 Q322.3438,279.727 321.75,279.4614 Q321.1563,279.1801 320.5313,279.1801 Q319.1875,279.1801 318.5,280.2582 Q317.8125,281.3207 317.8125,283.4145 Q317.8125,285.5082 318.5,286.5864 Q319.1875,287.6489 320.5313,287.6489 Q321.1563,287.6489 321.75,287.3832 Q322.3438,287.102 322.9688,286.5239 L322.9688,289.2426 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="80" x="334" y="289.034">Сущность 2</text><line style="stroke:#181818;stroke-width:0.5;" x1="306" x2="416" y1="299.602" y2="299.602"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="13" x="311" y="318.5679">id</text><line style="stroke:#181818;stroke-width:1.0;" x1="306" x2="416" y1="326.6699" y2="326.6699"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="67" x="311" y="345.6358">атрибут 3</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="67" x="311" y="364.7038">атрибут 4</text></g><!--MD5=[c01b05be323c7abd11cb44122f018243]
+link S1.A1 to S1.A2--><g id="link_S1.A1_S1.A2"><path codeLine="15" d="M161.27,105.102 C171.03,105.102 180.79,105.102 190.55,105.102 " fill="none" id="S1.A1-to-S1.A2" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="195.65,105.102,186.65,101.102,190.65,105.102,186.65,109.102,195.65,105.102" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[c7051a1b34dff508a8db4bb2f7247d18]
+link S3.A1 to S3.A2--><g id="link_S3.A1_S3.A2"><path codeLine="43" d="M270.27,320.102 C280.03,320.102 289.79,320.102 299.55,320.102 " fill="none" id="S3.A1-to-S3.A2" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="304.65,320.102,295.65,316.102,299.65,320.102,295.65,324.102,304.65,320.102" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[bf40a4d57c349b57b872328d355b2e7b]
+link S1 to S3--><g id="link_S1_S3"><path d="M27.0102,181.876 C27.0603,182.0306 27.1106,182.1851 27.1611,182.3395 C27.2621,182.6482 27.3639,182.9566 27.4664,183.2646 C29.1069,188.1918 30.9438,193.012 33,197.602 C46.52,227.787 68.5325,257.692 87.4025,280.2807 C96.8375,291.5751 105.4869,301.0404 111.8963,307.7971 C112.6974,308.6417 113.4636,309.444 114.1919,310.2022 C114.374,310.3918 114.5537,310.5786 114.731,310.7626 C114.8197,310.8546 114.9077,310.9459 114.9952,311.0366 " fill="none" id="S1-to-S3" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="114.9952,311.0366,111.6241,301.7826,111.5233,307.4385,105.8673,307.3377,114.9952,311.0366" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[8eac89d31ced3c9003fbd6a8a005c745]
+link S2 to S3--><g id="link_S2_S3"><path d="M371.9527,131.7687 C371.8993,131.9085 371.8456,132.0486 371.7916,132.189 C371.6836,132.4699 371.5744,132.7522 371.4641,133.0356 C371.0229,134.1696 370.5631,135.3238 370.0845,136.4951 C369.1272,138.8377 368.0945,141.2485 366.9838,143.702 C358.0975,163.3295 344.215,185.682 324,197.602 C306.56,207.882 157.16,192.192 142,205.602 C137.2875,209.7732 133.447,214.6364 130.3354,219.9579 C130.1409,220.2905 129.9492,220.6249 129.7604,220.9611 C129.666,221.1291 129.5723,221.2976 129.4793,221.4665 " fill="none" id="S2-to-S3" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="129.4793,221.4665,137.3242,215.5119,131.8909,217.0866,130.3163,211.6533,129.4793,221.4665" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[fcbaaaba76da071c26e4ebe9cb68c9d8]
+@startuml
+
+'left to right direction
+
+namespace "Сервис 1" as S1  {
+class "Сущность 1" as A1{
+    id
+    - - -
+    атрибут 1
+    атрибут 2
+}
+class "Сущность 2" as A2{
+    id
+}
+
+A1 -> A2
+
+}
+namespace "Сервис 2" as S2  {
+class "Сущность 2" as A2{
+    id
+    - - -
+    атрибут 3
+    атрибут 4
+}
+}
+
+
+namespace "Cвязывание сущностей" as S3  {
+class "Сущность 1" as A1{
+    id
+    - - -
+    атрибут 1
+    атрибут 2
+}
+
+class "Сущность 2" as A2{
+    id
+    - - -
+    атрибут 3
+    атрибут 4
+}
+
+A1 -> A2
+}
+
+S1 - -> S3
+S2 - -> S3
+
+@enduml
+
+@startuml
+
+
+namespace "Сервис 1" as S1  {
+class "Сущность 1" as A1{
+    id
+    - - -
+    атрибут 1
+    атрибут 2
+}
+class "Сущность 2" as A2{
+    id
+}
+
+A1 -> A2
+
+}
+namespace "Сервис 2" as S2  {
+class "Сущность 2" as A2{
+    id
+    - - -
+    атрибут 3
+    атрибут 4
+}
+}
+
+
+namespace "Cвязывание сущностей" as S3  {
+class "Сущность 1" as A1{
+    id
+    - - -
+    атрибут 1
+    атрибут 2
+}
+
+class "Сущность 2" as A2{
+    id
+    - - -
+    атрибут 3
+    атрибут 4
+}
+
+A1 -> A2
+}
+
+S1 - -> S3
+S2 - -> S3
+
+@enduml
+
+PlantUML version 1.2022.13(Sat Nov 19 16:22:17 MSK 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: ru
+Country: RU
+--></g></svg>

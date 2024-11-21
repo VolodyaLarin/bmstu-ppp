@@ -1,0 +1,102 @@
+\chapter{Технологический раздел}
+\label{cha:impl}
+
+
+\section{Выбор средств программной реализации}
+
+
+Основным средством разработки является язык программирования.
+Был выбран язык программирования C.
+Для выполенения паралелльныхх вычислений была использована библиотека OpenMPI.
+
+
+\section{Структуры MPI}
+
+
+Был создан тип данных, представляющий собой непрерывную последовательность элементов заданного базового типа MPI\_DOUBLE.
+Этот тип данных удобен для передачи целых строк матрицы.
+Данный тип определен следующим образом.
+
+\begin{small}
+    \begin{verbatim}
+MPI_Datatype mpi_row;
+MPI_Type_contiguous(matrix_length, MPI_DOUBLE, &mpi_row);
+    \end{verbatim}
+\end{small}
+
+Для цикличной рассылки был использован следующий тип.
+Эта структура данных описывает создание типа данных для передачи строк матрицы в MPI.
+Сначала создается временный тип данных -- вектор из строк матрицы c пробелом в $size-1$ строк.
+Затем данный временный тип преобразуется в окончательный тип: задается выравнивание в памяти, чтобы можно было получить следующие $N$ строк для другого узла.
+Тип определен следующим образом.
+
+
+\begin{small}
+    \begin{verbatim}
+MPI_Datatype mpi_row_sh;
+{
+    MPI_Datatype mpi_row_tmp;
+    MPI_Type_vector(max_matrix_rows, matrix_length,
+        matrix_length * size, MPI_DOUBLE, &mpi_row_tmp);
+    MPI_Type_create_resized(mpi_row_tmp, 0,
+        sizeof(double) * matrix_length, &mpi_row_sh);
+    MPI_Type_free(&mpi_row_tmp);
+}
+    \end{verbatim}
+\end{small}
+
+
+Отправка и сбор данных происходит с помощью функций.
+
+
+\begin{small}
+    \begin{verbatim}
+MPI_Scatter(matrix, 1, mpi_row_sh,
+            matrix_r, max_matrix_rows, mpi_row,
+            0, MPI_COMM_WORLD);
+
+MPI_Gather(inv_matrix, max_matrix_rows, mpi_row,
+           invert_matrix, 1, mpi_row_sh,
+           0, MPI_COMM_WORLD);
+    \end{verbatim}
+\end{small}
+
+
+\section{Организация проверки валидности данных}
+
+
+Для проверки ошибки вычислений используется следующая функция.
+
+
+\begin{small}
+    \begin{verbatim}
+double inv_check(int matrix_len, double *left, double *right) {
+    double *tmp = malloc(sizeof(*tmp) * matrix_len * matrix_len);
+
+    mul_matrix(left, right, tmp, matrix_len);
+
+    double diff = 0;
+    for (size_t row = 0; row < matrix_len; row++) {
+        for (size_t col = 0; col < matrix_len; col++) {
+            double data = tmp[row * matrix_len + col];
+            if (row == col) diff += fabs(1 - data);
+            else diff += fabs(data);
+        }
+    }
+
+    free(tmp);
+    return diff / (matrix_len * matrix_len);
+}
+    \end{verbatim}
+\end{small}
+
+
+\section*{Вывод}
+
+В данном разделе описывается выбор средств программной реализации для выполнения определённых задач.
+Для разработки используется язык программирования C. Для параллельных вычислений применяется OpenMPI.
+Для рассылки строк и цкиличной рассылки строк матрицы были разработаны типы данных.
+
+Для контроля ошибок вычислений применяется следующая функция.
+Функция inv\_check умножает матрицы, вычисляет разницу между резудьтатом и единичной матрицей.
+

@@ -1,0 +1,33 @@
+@startuml
+
+'left to right direction
+
+skinparam linetype ortho
+
+
+
+rectangle "Композиция \nпрограммных \nинтерфейсов" as k {
+
+}
+
+'together {
+
+label "Запрос\nпользователя" as l1
+'label "Граф\nсущностей" as l2
+
+'}
+
+'l1 ..[hidden] l2
+
+
+label "Граф сущностей" as l3
+label Службы as l4
+label "Ответ с\nпроведенной\nкомпозицией" as l5
+l1 -r-> k
+'l2 -r-> k
+l3 -d-> k
+l4 -U-> k
+k -r-> l5
+@enduml
+
+

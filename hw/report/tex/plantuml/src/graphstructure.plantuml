@@ -1,0 +1,32 @@
+@startuml
+
+
+struct HeadEntity {
+    + name : string
+    + entities: Entity[]
+}
+
+struct Entity {
+    + service: string
+    + name: string
+    + path: string
+    + fields: Field[]
+    + queries: Field[]
+    + children: string[]
+}
+
+
+struct Field {
+    + name: string
+    + type: string
+}
+
+
+
+HeadEntity ||-o{ Entity : entities
+
+
+Entity ||-r--o{ Field: fields
+Entity ||-r--o{ Field : queries
+
+@enduml

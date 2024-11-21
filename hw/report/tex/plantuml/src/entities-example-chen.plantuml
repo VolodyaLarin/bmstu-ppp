@@ -1,0 +1,34 @@
+@startchen
+
+entity "Service1::Entity1" as S1E1 {
+  Field1
+  Filed2
+}
+
+entity "Service2::Entity1" as S2E1 {
+  Field3
+  Filed4
+}
+
+entity "Service3::Entity2" as S3E2 {
+  Field4
+  Filed5
+}
+
+relationship "Расширяет" as Extends {
+  ID
+}
+
+relationship "Связывает" as Link {
+  
+}
+
+Extends =1= S1E1
+Extends =1= S2E1
+
+
+Link =1= S2E1
+Link -N- S3E2
+
+
+@endchen

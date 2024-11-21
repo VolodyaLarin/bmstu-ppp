@@ -1,0 +1,18 @@
+@startuml
+
+actor "Клиент" as client
+
+rectangle "Композиция программных интерфейсов" as comp
+
+package "Сервис-ориентированный подход" as z {
+    component "Служба 1" as A
+    component "Служба 2" as B
+    component "Служба 3" as C
+}
+
+comp --> A : Ф1
+comp --> B : Ф2
+comp --> C : Ф3
+
+client -> comp : Ф1, Ф2, Ф3
+@enduml
